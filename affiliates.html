@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promethium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Scratch_Promethium Logo-8.png" type="image/x-icon">
+    <link rel="icon" href="Scratch_Promethium Logo-8.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <div class="logo-box"></a><img src="Promethium Logo_Final-2.png" alt=""></div>
+        </div>
+
+
+    
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Integrity. Excellence. Progress. </a></li>
+                <li class="contact-button"><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+
+        <ul class="zero">
+            <li class="one"><a href="about us.html">About us</a></li>
+            <li class="one"><a href="Products.html">Products</a></li>
+            <li class="one"><a href="our commitment.html">Our Commitmentss</a></li>
+            <li class="one"><a href="news&media.html">News & Media</a></li>
+            <li class="one"><a href="affiliates.html">Affiliates </a></li>
+            <li class="one"><a href="careers.html">Careers</a></li>
+        </ul>
+
+            
+        <div class="container">
+            <div class="affliates-image">
+                <img src="affliliates/AFFLIATES 3.jpg" alt="">
+            </div>
+
+           
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">ENERGY</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Maxipacific Corp</a>
+                  <a href="#">Peitriliam Blac</a>
+                </div>
+              </div>
+
+              <div class="afffili">
+                <h2 class="aff">Affiliates</h2>
+              </div>
+
+              <!-- Second Dropdown -->
+<div class="dropdown second-dropdown">
+    <button onclick="myFunction2()" class="dropbtn">FUEL</button>
+    <div id="myDropdown2" class="dropdown-content-two">
+        <a href="#">Maxifuel</a>
+        <!-- Add more options as needed -->
+    </div>
+</div>
+
+
+
+            <!-- Third Dropdown -->
+<div class="dropdown third-dropdown">
+    <button onclick="myFunction3()" class="dropbtn">LUBRICANTS</button>
+    <div id="myDropdown3" class="dropdown-content-three">
+        <a href="#">Derulo</a>
+        <a href="#">Maxilubes</a>
+        <!-- Add more options as needed -->
+    </div>
+</div>
+
+
+            <!-- fourth Dropdown -->
+            <div class="dropdown fourth-dropdown">
+                <button onclick="myFunction4()" class="dropbtn">LPG</button>
+                <div id="myDropdown4" class="dropdown-content-four">
+                    <a href="#">MaxiLPG</a>
+                    <a href="#">Flame 1</a>
+                    <a href="#">WV Marketing</a>
+                    <!-- Add more options as needed -->
+                </div>
+            </div>
+
+                <!-- fifth Dropdown -->
+                <div class="dropdown fifth-dropdown">
+                    <button onclick="myFunction5()" class="dropbtn">LOGISTICS</button>
+                    <div id="myDropdown5" class="dropdown-content-five">
+                        <a href="#">Caprotech </a>
+                        <a href="#">Promethium Trucking</a>
+                        <!-- Add more options as needed -->
+                    </div>
+                </div>
+
+                 <!-- fifth Dropdown -->
+                 <div class="dropdown fifth-dropdown">
+                    <button onclick="myFunction5()" class="dropbtn">LOGISTICS</button>
+                    <div id="myDropdown5" class="dropdown-content-five">
+                        <a href="#">Caprotech </a>
+                        <a href="#">Promethium Trucking</a>
+                        <!-- Add more options as needed -->
+                    </div>
+                </div>
+
+
+                 <!-- fifth Dropdown -->
+                 <div class="dropdown six-dropdown">
+                    <button onclick="myFunction6()" class="dropbtn">REAL ESTATE</button>
+                    <div id="myDropdown6" class="dropdown-content-six">
+                        <a href="#">Caprotech </a>
+                        <a href="#">Promethium Trucking</a>
+                        <!-- Add more options as needed -->
+                    </div>
+                </div>
+
+
+
+                   
+</div>
+</div>
+
+ <footer class="footer">
+    <div class="footer-left">
+        <span><a href="privacy-policy.html">Privacy Policy</a></span>
+    </div>
+    <div class="footer-right">
+        <span>Promethium Marketing Company @ 2003 2004.</span>
+    </div>
+</footer>
+
+
+
+
+
+
+<script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction(dropbtn) {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Function for the second dropdown
+function myFunction2() {
+        document.getElementById("myDropdown2").classList.toggle("show");
+    }
+
+    // Function for the third dropdown
+function myFunction3() {
+    document.getElementById("myDropdown3").classList.toggle("show");
+}
+
+ // Function for the third dropdown
+ function myFunction4() {
+    document.getElementById("myDropdown4").classList.toggle("show");
+}
+
+// Function for the third dropdown
+function myFunction5() {
+    document.getElementById("myDropdown5").classList.toggle("show");
+}
+
+// Function for the third dropdown
+function myFunction6() {
+    document.getElementById("myDropdown6").classList.toggle("show");
+}
+   
+   
+    
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+
+
+
+// Function to toggle sidebar dropdown
+function toggleSidebarDropdown(dropdownId) {
+    var dropdown = document.getElementById(dropdownId);
+    dropdown.classList.toggle("show");
+}
+
+// Close the sidebar dropdown if the user clicks outside of it
+window.onclick = function (event) {
+    if (!event.target.matches('.catTitle')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content-sidebar");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+</script>
+
+    
+
+
+
+</body>
+</html>
+
